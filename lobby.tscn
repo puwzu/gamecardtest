@@ -1,0 +1,61 @@
+[gd_scene load_steps=2 format=3 uid="uid://bncnlm1ba47b3"]
+
+[ext_resource type="Script" path="res://lobby.gd" id="1_jhowu"]
+
+[node name="lobby" type="Node2D"]
+script = ExtResource("1_jhowu")
+
+[node name="backtomenubutton" type="Button" parent="."]
+offset_left = 562.0
+offset_top = 10.0
+offset_right = 712.0
+offset_bottom = 70.0
+text = "back to menu"
+
+[node name="joinroom" type="Button" parent="."]
+offset_left = 161.0
+offset_top = 3.0
+offset_right = 311.0
+offset_bottom = 63.0
+text = "เข้าร่วมห้อง"
+
+[node name="createroom" type="Button" parent="."]
+offset_left = 319.0
+offset_top = 4.0
+offset_right = 469.0
+offset_bottom = 64.0
+text = "สร้างห้อง"
+
+[node name="searchroom" type="Button" parent="."]
+offset_left = 3.0
+offset_top = 4.0
+offset_right = 153.0
+offset_bottom = 64.0
+text = "หาห้อง"
+
+[node name="roomname" type="LineEdit" parent="."]
+offset_left = 754.0
+offset_top = 15.0
+offset_right = 821.063
+offset_bottom = 46.0
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+offset_left = 7.0
+offset_top = 159.0
+offset_right = 507.0
+offset_bottom = 459.0
+
+[node name="roomlist" type="ItemList" parent="ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="playername" type="LineEdit" parent="."]
+offset_right = 67.0625
+offset_bottom = 31.0
+
+[connection signal="pressed" from="backtomenubutton" to="." method="_on_backtomenubutton_pressed"]
+[connection signal="pressed" from="joinroom" to="." method="_on_joinroom_pressed"]
+[connection signal="pressed" from="createroom" to="." method="_on_createroom_pressed"]
+[connection signal="pressed" from="searchroom" to="." method="_on_searchroom_pressed"]
+[connection signal="text_submitted" from="roomname" to="." method="_on_roomname_text_submitted"]

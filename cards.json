@@ -1,0 +1,187 @@
+{
+	"cards": [
+		{
+			"name": "Fireball",
+			"skills": {
+				"attack_power": 10,
+				"movement": "none",
+				"speed": "fast",
+				"special_ability": "Burn",
+				"type": "spell"
+			},
+			"level": "only one",
+			"race": "demon",
+			"image": "res://image/card/Fireball.jpeg"
+		},
+		{
+			"name": "Ice Shield",
+			"skills": {
+				"attack_power": 5,
+				"movement": "none",
+				"speed": "slow",
+				"special_ability": "Freeze",
+				"type": "defense"
+			},
+			"level": "only two",
+			"race": "human",
+			"image":"res://image/card/Ice Sheild.jpeg"
+		},
+		{
+			"name": "Human Card 1",
+			"skills": {
+				"attack_power": 5,
+				"movement": "land",
+				"speed": "moderate",
+				"special_ability": "Human Skill 1",
+				"type": "warrior"
+			},
+			"level": "common",
+			"race": "human",
+			"image":"res://image/card/Human Card 1.jpeg"
+		},
+		{
+			"name": "Human Card 2",
+			"skills": {
+				"attack_power": 6,
+				"movement": "land",
+				"speed": "moderate",
+				"special_ability": "Human Skill 2",
+				"type": "warrior"
+			},
+			"level": "only one",
+			"race": "human"
+		},
+		{
+			"name": "Human Card 3",
+			"skills": {
+				"attack_power": 7,
+				"movement": "land",
+				"speed": "moderate",
+				"special_ability": "Human Skill 3",
+				"type": "warrior"
+			},
+			"level": "common",
+			"race": "human"
+		},
+		{
+			"name": "Human Card 4",
+			"skills": {
+				"attack_power": 8,
+				"movement": "land",
+				"speed": "fast",
+				"special_ability": "Charge",
+				"type": "knight"
+			},
+			"level": "only two",
+			"race": "human"
+		},
+		{
+			"name": "Human Card 5",
+			"skills": {
+				"attack_power": 10,
+				"movement": "none",
+				"speed": "slow",
+				"special_ability": "Barricade",
+				"type": "defense"
+			},
+			"level": "only three",
+			"race": "human"
+		},
+		{
+			"name": "Ghost Card 1",
+			"skills": {
+				"attack_power": 7,
+				"movement": "float",
+				"speed": "fast",
+				"special_ability": "Ghost Skill 1",
+				"type": "assassin"
+			},
+			"level": "common",
+			"race": "ghost"
+		},
+		{
+			"name": "Ghost Card 2",
+			"skills": {
+				"attack_power": 8,
+				"movement": "float",
+				"speed": "fast",
+				"special_ability": "Ghost Skill 2",
+				"type": "assassin"
+			},
+			"level": "only two",
+			"race": "ghost"
+		},
+		{
+			"name": "Ghost Card 3",
+			"skills": {
+				"attack_power": 9,
+				"movement": "float",
+				"speed": "fast",
+				"special_ability": "Ghost Skill 3",
+				"type": "assassin"
+			},
+			"level": "common",
+			"race": "ghost"
+		},
+		{
+			"name": "Demon Card 1",
+			"skills": {
+				"attack_power": 10,
+				"movement": "land",
+				"speed": "slow",
+				"special_ability": "Demon Skill 1",
+				"type": "beast"
+			},
+			"level": "common",
+			"race": "demon"
+		},
+		{
+			"name": "Demon Card 2",
+			"skills": {
+				"attack_power": 11,
+				"movement": "land",
+				"speed": "slow",
+				"special_ability": "Demon Skill 2",
+				"type": "beast"
+			},
+			"level": "only three",
+			"race": "demon"
+		},
+		{
+			"name": "Demon Card 3",
+			"skills": {
+				"attack_power": 12,
+				"movement": "land",
+				"speed": "slow",
+				"special_ability": "Demon Skill 3",
+				"type": "beast"
+			},
+			"level": "common",
+			"race": "demon"
+		},
+		{
+			"name": "Demon Card 4",
+			"skills": {
+				"attack_power": 13,
+				"movement": "none",
+				"speed": "fast",
+				"special_ability": "Inferno Blast",
+				"type": "spell"
+			},
+			"level": "only one",
+			"race": "demon"
+		},
+		{
+			"name": "Demon Card 5",
+			"skills": {
+				"attack_power": 14,
+				"movement": "land",
+				"speed": "moderate",
+				"special_ability": "Flame Strike",
+				"type": "warrior"
+			},
+			"level": "only two",
+			"race": "demon"
+		}
+	]
+}

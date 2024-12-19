@@ -1,0 +1,43 @@
+[gd_scene load_steps=2 format=3 uid="uid://thr6gggsjcy5"]
+
+[ext_resource type="Script" path="res://aututhen.gd" id="1_uskfd"]
+
+[node name="Aututhen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_uskfd")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 295.0
+offset_top = 128.0
+offset_right = 364.0
+offset_bottom = 291.0
+scale = Vector2(7.51847, 2.17055)
+
+[node name="StateLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "not login"
+
+[node name="EmailLineEdit" type="LineEdit" parent="VBoxContainer"]
+layout_mode = 2
+placeholder_text = "email"
+
+[node name="PassWordLineEdit" type="LineEdit" parent="VBoxContainer"]
+layout_mode = 2
+placeholder_text = "password"
+
+[node name="loginbutton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "login"
+
+[node name="signinbutton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "signup"
+
+[connection signal="pressed" from="VBoxContainer/loginbutton" to="." method="_on_loginbutton_pressed"]
+[connection signal="pressed" from="VBoxContainer/signinbutton" to="." method="_on_signinbutton_pressed"]

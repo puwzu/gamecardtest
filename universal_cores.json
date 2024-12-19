@@ -1,0 +1,204 @@
+{
+	"universal_cores": [
+		{
+			"name": "Castle",
+			"special_cards": [
+				"Knight's Charge",
+				"Castle Defense",
+				"Cannonball",
+				"Archery Barrage",
+				"Siege Resistance",
+				"Wall Reinforcement",
+				"Gate Guard",
+				"Trebuchet Fire",
+				"Moat Trap",
+				"Castle Shield",
+				"Royal Command",
+				"Knight's Oath",
+				"Castle Healer",
+				"Squire's Duty",
+				"King's Favor"
+			]
+		},
+		{
+			"name": "Tower",
+			"special_cards": [
+				"Tower Sniper",
+				"Magic Ward",
+				"Aerial Strike",
+				"Crystal Barrier",
+				"Lightning Rod",
+				"Energy Shield",
+				"Rapid Fire",
+				"Force Field",
+				"Repair Bots",
+				"Tower Commander",
+				"Defensive Stance",
+				"Strategic Position",
+				"Tower Reinforcement",
+				"Mystic Blast",
+				"Guardians' Bond"
+			]
+		},
+		{
+			"name": "Fortress",
+			"special_cards": [
+				"Stone Bulwark",
+				"Heavy Catapult",
+				"Fortress Engineer",
+				"Iron Wall",
+				"Defensive Measures",
+				"Impenetrable Shield",
+				"Archer's Stand",
+				"Reinforced Barricade",
+				"Siege Cannons",
+				"Fortified Hold",
+				"Strategic Retreat",
+				"Commander's Rally",
+				"Fortress Tactician",
+				"Blast Barrier",
+				"Keep's Defender"
+			]
+		},
+		{
+			"name": "Sanctuary",
+			"special_cards": [
+				"Healing Aura",
+				"Holy Shield",
+				"Light's Wrath",
+				"Purification Wave",
+				"Blessed Barrier",
+				"Sanctuary's Might",
+				"Angelic Call",
+				"Divine Protection",
+				"Light Bind",
+				"Sanctuary Guardian",
+				"Holy Grounds",
+				"Celestial Shield",
+				"Prayers of Strength",
+				"Blessed Recovery",
+				"Radiant Judgement"
+			]
+		},
+		{
+			"name": "Citadel",
+			"special_cards": [
+				"Imperial Orders",
+				"Heavy Infantry",
+				"Citadel Artillery",
+				"Stone Bastion",
+				"Imperial Knights",
+				"Catapult Strike",
+				"Royal Engineers",
+				"Battle Horn",
+				"Citadel Protector",
+				"Imperial Resolve",
+				"Siege Breaker",
+				"Grand Shield",
+				"Legion Command",
+				"Archer Barrage",
+				"Strategic Hold"
+			]
+		},
+		{
+			"name": "Outpost",
+			"special_cards": [
+				"Outpost Guard",
+				"Surprise Barrage",
+				"Flaming Arrows",
+				"Scout Report",
+				"Quick Repairs",
+				"Wooden Shield",
+				"Outpost Barricade",
+				"Reinforced Walls",
+				"Ambush Trap",
+				"Outpost Cannon",
+				"Stealth Deployment",
+				"Forest's Cover",
+				"Strategic Outpost",
+				"Forward Command",
+				"Scout's Mark"
+			]
+		},
+		{
+			"name": "Bastion",
+			"special_cards": [
+				"Heavy Shield Wall",
+				"Bastion's Vanguard",
+				"Catapult Reload",
+				"Counteroffensive",
+				"Reinforced Core",
+				"Immovable Force",
+				"Frontline Guards",
+				"Battlefield Repairs",
+				"Siege Counter",
+				"Bastion Commander",
+				"Retreat and Rally",
+				"Resilient Stand",
+				"Battle Cry",
+				"Last Stand",
+				"Guardian's Pledge"
+			]
+		},
+		{
+			"name": "Stronghold",
+			"special_cards": [
+				"Defender's Shield",
+				"Ballista's Barrage",
+				"Rockfall Trap",
+				"Guardian Knights",
+				"Battleforge",
+				"Stronghold Sentinel",
+				"Strategic Holdout",
+				"Archer's Volley",
+				"Quick Bolstering",
+				"Rock Steady",
+				"Catapult's Volley",
+				"Defender's Command",
+				"Impregnable Defense",
+				"Siege Master's Call",
+				"Relentless Stance"
+			]
+		},
+		{
+			"name": "Keep",
+			"special_cards": [
+				"Keep Archers",
+				"Steel Defense",
+				"Fortress Archer",
+				"Gatekeeper's Call",
+				"Moat's Edge",
+				"Catapult Defense",
+				"Warrior's Rally",
+				"Siege Shield",
+				"Keep's Archway",
+				"Arrow Rain",
+				"Strategic Defense",
+				"Fortress Barricade",
+				"Heavy Plate Shield",
+				"Knight's Rally",
+				"Guardian's Watch"
+			]
+		},
+		{
+			"name": "Citadel of Flame",
+			"special_cards": [
+				"Fire Wall",
+				"Blazing Arrows",
+				"Molten Siege",
+				"Volcanic Trap",
+				"Pyromancer's Wrath",
+				"Flame Guard",
+				"Molten Core",
+				"Burning Fortress",
+				"Inferno Catapult",
+				"Flaming Barricade",
+				"Blazing Resolve",
+				"Strategic Pyre",
+				"Flame Burst",
+				"Firestorm Barrage",
+				"Guardian of Flames"
+			]
+		}
+	]
+}

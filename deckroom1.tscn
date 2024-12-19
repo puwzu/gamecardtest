@@ -1,0 +1,129 @@
+[gd_scene load_steps=2 format=3 uid="uid://8u3fihry3qdd"]
+
+[ext_resource type="Script" path="res://deckroom1.gd" id="1_gyv5m"]
+
+[node name="Deckroom" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_gyv5m")
+
+[node name="DeckPanel" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 820.0
+offset_top = 9.0
+offset_right = 978.0
+offset_bottom = 179.0
+scale = Vector2(2.08534, 2.09665)
+
+[node name="Deck1Container" type="HBoxContainer" parent="DeckPanel"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Deck1" type="Button" parent="DeckPanel/Deck1Container"]
+layout_mode = 2
+text = "deck1"
+
+[node name="UniversalList1" type="ScrollContainer" parent="DeckPanel/Deck1Container"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="DeckPanel/Deck1Container/UniversalList1"]
+layout_mode = 2
+
+[node name="Deck2Container" type="HBoxContainer" parent="DeckPanel"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Deck2" type="Button" parent="DeckPanel/Deck2Container"]
+layout_mode = 2
+text = "deck2"
+
+[node name="UniversalList2" type="ScrollContainer" parent="DeckPanel/Deck2Container"]
+custom_minimum_size = Vector2(0, 31)
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="HBoxContainer" type="HBoxContainer" parent="DeckPanel/Deck2Container/UniversalList2"]
+layout_mode = 2
+
+[node name="Deck3Container" type="HBoxContainer" parent="DeckPanel"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Deck3" type="Button" parent="DeckPanel/Deck3Container"]
+layout_mode = 2
+text = "deck3"
+
+[node name="UniversalList3" type="ScrollContainer" parent="DeckPanel/Deck3Container"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="HBoxContainer" type="HBoxContainer" parent="DeckPanel/Deck3Container/UniversalList3"]
+layout_mode = 2
+
+[node name="ManageDeckPanel" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 2.0
+offset_right = 102.0
+offset_bottom = 233.0
+
+[node name="Manage Deck" type="Label" parent="ManageDeckPanel"]
+layout_mode = 2
+text = "จัดเด็ค"
+horizontal_alignment = 2
+
+[node name="CardList" type="ScrollContainer" parent="ManageDeckPanel"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+
+[node name="GridContainer" type="GridContainer" parent="ManageDeckPanel/CardList"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+
+[node name="SelectedCardsScroll" type="ScrollContainer" parent="ManageDeckPanel"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+
+[node name="GridContainer" type="GridContainer" parent="ManageDeckPanel/SelectedCardsScroll"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+
+[node name="AddCardButton" type="Button" parent="."]
+custom_minimum_size = Vector2(300, 60)
+layout_mode = 2
+offset_left = 823.0
+offset_top = 419.0
+offset_right = 1153.0
+offset_bottom = 479.0
+text = "เพิ่มการ์ด"
+
+[node name="RemoveCardButton" type="Button" parent="."]
+custom_minimum_size = Vector2(300, 60)
+layout_mode = 2
+offset_left = 822.0
+offset_top = 492.0
+offset_right = 1152.0
+offset_bottom = 552.0
+text = "นำการ์ดออก"
+
+[node name="SaveDeckButton" type="Button" parent="."]
+custom_minimum_size = Vector2(330, 60)
+layout_mode = 2
+offset_left = 831.0
+offset_top = 566.0
+offset_right = 1161.0
+offset_bottom = 626.0
+scale = Vector2(0.947127, 1.12243)
+text = "บันทึกเด็ค"
+
+[connection signal="pressed" from="DeckPanel/Deck1Container/Deck1" to="." method="_on_deck_1_pressed"]
+[connection signal="pressed" from="DeckPanel/Deck2Container/Deck2" to="." method="_on_deck_2_pressed"]
+[connection signal="pressed" from="DeckPanel/Deck3Container/Deck3" to="." method="_on_deck_3_pressed"]
+[connection signal="pressed" from="AddCardButton" to="." method="_on_add_card_button_pressed"]
+[connection signal="pressed" from="RemoveCardButton" to="." method="_on_remove_card_button_pressed"]
+[connection signal="pressed" from="SaveDeckButton" to="." method="_on_savebutton_pressed"]

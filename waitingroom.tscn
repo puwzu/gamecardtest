@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://cyhobagq14ojw"]
+
+[ext_resource type="Script" path="res://waitingroom.gd" id="1_mohre"]
+
+[node name="waitingroom" type="Node2D"]
+script = ExtResource("1_mohre")
+
+[node name="lobby" type="Button" parent="."]
+offset_right = 8.0
+offset_bottom = 8.0
+text = "กลับล็อบบี้"
+
+[node name="ready" type="Button" parent="."]
+offset_left = 85.0
+offset_top = -1.0
+offset_right = 134.0
+offset_bottom = 30.0
+text = "พร้อม"

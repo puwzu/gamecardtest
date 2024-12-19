@@ -1,0 +1,114 @@
+[gd_scene load_steps=2 format=3 uid="uid://colyx0km2ob4c"]
+
+[ext_resource type="Script" path="res://deckcreate.gd" id="1_mauwh"]
+
+[node name="Deckcreate" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_mauwh")
+
+[node name="backtomenu" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1066.0
+offset_top = 9.0
+offset_right = 1146.0
+offset_bottom = 49.0
+text = "เมนู"
+
+[node name="addcard" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1068.0
+offset_top = 57.0
+offset_right = 1148.0
+offset_bottom = 97.0
+text = "เพิ่ม"
+
+[node name="removecard" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1072.0
+offset_top = 104.0
+offset_right = 1152.0
+offset_bottom = 144.0
+text = "ลบ"
+
+[node name="allcard" type="ScrollContainer" parent="."]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 168.0
+offset_right = 1008.0
+offset_bottom = 208.0
+
+[node name="GridContainer" type="GridContainer" parent="allcard"]
+layout_mode = 2
+
+[node name="selectedcard" type="ScrollContainer" parent="."]
+layout_mode = 0
+offset_left = 1071.0
+offset_top = 151.0
+offset_right = 1151.0
+offset_bottom = 601.0
+
+[node name="GridContainer" type="GridContainer" parent="selectedcard"]
+layout_mode = 2
+
+[node name="univerasl" type="Popup" parent="."]
+
+[node name="race" type="Popup" parent="."]
+
+[node name="select" type="Button" parent="."]
+layout_mode = 2
+offset_left = 1076.0
+offset_top = 611.0
+offset_right = 1151.0
+offset_bottom = 642.0
+text = "ยืนยันเด็ค"
+
+[node name="TextureButton" type="TextureButton" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureButton2" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 58.0
+offset_top = 1.0
+offset_right = 98.0
+offset_bottom = 41.0
+
+[node name="PopupPanel" type="PopupPanel" parent="."]
+min_size = Vector2i(50, 50)
+content_scale_size = Vector2i(100, 100)
+
+[node name="ScrollContainer" type="ScrollContainer" parent="PopupPanel"]
+custom_minimum_size = Vector2(50, 50)
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 96.0
+offset_bottom = 96.0
+vertical_scroll_mode = 0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="PopupPanel/ScrollContainer"]
+layout_mode = 2
+
+[node name="PopupPanel3" type="PopupPanel" parent="."]
+auto_translate_mode = 1
+min_size = Vector2i(50, 50)
+
+[node name="ScrollContainer" type="ScrollContainer" parent="PopupPanel3"]
+custom_minimum_size = Vector2(50, 50)
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 96.0
+offset_bottom = 96.0
+vertical_scroll_mode = 0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="PopupPanel3/ScrollContainer"]
+layout_mode = 2
+
+[connection signal="pressed" from="backtomenu" to="." method="_on_backtomenu_pressed"]
+[connection signal="pressed" from="addcard" to="." method="_on_addcard_pressed"]
+[connection signal="pressed" from="removecard" to="." method="_on_removecard_pressed"]

@@ -1,0 +1,176 @@
+[gd_scene load_steps=5 format=3 uid="uid://t1i3g0d1olaf"]
+
+[ext_resource type="Texture2D" uid="uid://baap0qk3ccgk1" path="res://image/card/Dramatic Ace Of Spades Card Surrounded By Fiery Flames_11zon.png" id="1_awmvj"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_lhqbb"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_15m4o"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ms888"]
+size = Vector2(83, 83)
+
+[node name="Cardslot" type="Node2D"]
+
+[node name="slot1" type="Area2D" parent="."]
+light_mask = 2
+visibility_layer = 2
+material = SubResource("CanvasItemMaterial_lhqbb")
+position = Vector2(700, 300)
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="slot1"]
+light_mask = 3
+visibility_layer = 2
+material = SubResource("CanvasItemMaterial_15m4o")
+position = Vector2(0.5, 0.5)
+shape = SubResource("RectangleShape2D_ms888")
+
+[node name="Sprite2D" type="Sprite2D" parent="slot1"]
+light_mask = 2
+visibility_layer = 2
+texture = ExtResource("1_awmvj")
+
+[node name="slot2" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="slot2"]
+shape = SubResource("RectangleShape2D_ms888")
+
+[node name="slot3" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="slot3"]
+shape = SubResource("RectangleShape2D_ms888")
+
+[node name="slot4" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="slot4"]
+shape = SubResource("RectangleShape2D_ms888")
+
+[node name="slot5" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="slot5"]
+shape = SubResource("RectangleShape2D_ms888")
+
+[node name="slot6" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="slot6"]
+shape = SubResource("RectangleShape2D_ms888")
+
+[node name="slot7" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="slot7"]
+shape = SubResource("RectangleShape2D_ms888")
+
+[node name="slot8" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="slot8"]
+shape = SubResource("RectangleShape2D_ms888")
+
+[node name="slot9" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="slot9"]
+shape = SubResource("RectangleShape2D_ms888")
+
+[node name="slot10" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="slot10"]
+shape = SubResource("RectangleShape2D_ms888")
+
+[node name="slot11" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="slot11"]
+shape = SubResource("RectangleShape2D_ms888")
+
+[node name="slot12" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="slot12"]
+shape = SubResource("RectangleShape2D_ms888")
+
+[node name="slot13" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="slot13"]
+shape = SubResource("RectangleShape2D_ms888")
+
+[node name="slot14" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="slot14"]
+shape = SubResource("RectangleShape2D_ms888")
+
+[node name="slot15" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="slot15"]
+shape = SubResource("RectangleShape2D_ms888")
+
+[node name="slot16" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="slot16"]
+shape = SubResource("RectangleShape2D_ms888")
+
+[node name="slot17" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="slot17"]
+shape = SubResource("RectangleShape2D_ms888")
+
+[node name="slot18" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="slot18"]
+shape = SubResource("RectangleShape2D_ms888")
+
+[node name="slot19" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="slot19"]
+shape = SubResource("RectangleShape2D_ms888")
+
+[node name="slot20" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="slot20"]
+shape = SubResource("RectangleShape2D_ms888")
+
+[node name="slot21" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="slot21"]
+shape = SubResource("RectangleShape2D_ms888")
+
+[node name="slot22" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="slot22"]
+shape = SubResource("RectangleShape2D_ms888")
+
+[node name="slot23" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="slot23"]
+shape = SubResource("RectangleShape2D_ms888")
+
+[node name="slot24" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="slot24"]
+shape = SubResource("RectangleShape2D_ms888")
+
+[node name="slot25" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="slot25"]
+shape = SubResource("RectangleShape2D_ms888")
+
+[node name="slot26" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="slot26"]
+shape = SubResource("RectangleShape2D_ms888")
+
+[node name="slot27" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="slot27"]
+shape = SubResource("RectangleShape2D_ms888")
+
+[node name="slot28" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="slot28"]
+shape = SubResource("RectangleShape2D_ms888")
+
+[node name="slot29" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="slot29"]
+shape = SubResource("RectangleShape2D_ms888")
+
+[node name="slot30" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="slot30"]
+shape = SubResource("RectangleShape2D_ms888")

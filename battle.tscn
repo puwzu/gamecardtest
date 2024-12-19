@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://b4ut0mel8dqpv"]
+
+[ext_resource type="Script" path="res://battle.gd" id="1_7dddd"]
+[ext_resource type="Script" path="res://hand.gd" id="2_uus4t"]
+[ext_resource type="PackedScene" uid="uid://cbbkq083x4618" path="res://Card.tscn" id="3_tve1k"]
+[ext_resource type="PackedScene" uid="uid://t1i3g0d1olaf" path="res://cardslot.tscn" id="4_i8byq"]
+
+[node name="battle" type="Node2D"]
+script = ExtResource("1_7dddd")
+
+[node name="hand" type="Node2D" parent="."]
+script = ExtResource("2_uus4t")
+
+[node name="Card" parent="hand" instance=ExtResource("3_tve1k")]
+position = Vector2(500, 300)
+scale = Vector2(1.01641, 1.00931)
+
+[node name="Card2" parent="hand" instance=ExtResource("3_tve1k")]
+position = Vector2(580, 300)
+
+[node name="opponent hand" type="Node2D" parent="."]
+position = Vector2(162, 368)
+
+[node name="Cardslot" parent="." instance=ExtResource("4_i8byq")]
+light_mask = 3
+visibility_layer = 2

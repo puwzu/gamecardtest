@@ -54,6 +54,12 @@ size_flags_vertical = 3
 offset_right = 67.0625
 offset_bottom = 31.0
 
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
 [connection signal="pressed" from="backtomenubutton" to="." method="_on_backtomenubutton_pressed"]
 [connection signal="pressed" from="joinroom" to="." method="_on_joinroom_pressed"]
 [connection signal="pressed" from="createroom" to="." method="_on_createroom_pressed"]
